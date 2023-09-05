@@ -1,0 +1,40 @@
+.layout {
+    position : absolute;
+    display : flex;
+    flex-direction: column;
+    padding : 10px;
+    height : 100%;
+    width : 100%;
+}
+
+.header {
+    position : 'relative';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_img {
+    width : 3vw;
+    padding : 0px 5px 0px 5px;
+}
+
+
+.main {
+    position: relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height : 100%;   
+}
+.main_img {
+    width : 30vw;
+}
+.main_img:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(1.2); 
+}
+.main_button {
+    position: relative;
+    border : none;
+    background-color:transparent;
+}
